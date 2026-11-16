@@ -1,0 +1,6 @@
+@BusTicket.Server_HostAddress = http://localhost:5119
+
+GET {{BusTicket.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

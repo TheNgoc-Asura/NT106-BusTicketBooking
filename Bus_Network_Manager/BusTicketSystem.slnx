@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BusTicket.Client/BusTicket.Client.csproj" />
+  <Project Path="BusTicket.Core/BusTicket.Core.csproj" />
+  <Project Path="BusTicket.Server/BusTicket.Server.csproj" />
+</Solution>

@@ -1,0 +1,842 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "FullName": "Qu\u1EA3n Tr\u1ECB Vi\u00EAn H\u1EC7 Th\u1ED1ng",
+      "Email": "admin@nhaxe.vn",
+      "PasswordHash": "76a545945ae9c9ff5c0d37dabddb63ec239e65c5fde4e904e536a8d47948e92b",
+      "Phone": "0901000001",
+      "Role": "Admin",
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4565581+07:00"
+    },
+    {
+      "Id": 2,
+      "FullName": "Tr\u1EA7n V\u0103n B (\u0110i\u1EC1u H\u00E0nh)",
+      "Email": "tranvanb@nhaxe.vn",
+      "PasswordHash": "76a545945ae9c9ff5c0d37dabddb63ec239e65c5fde4e904e536a8d47948e92b",
+      "Phone": "0901000002",
+      "Role": "Staff",
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4580487+07:00"
+    },
+    {
+      "Id": 3,
+      "FullName": "L\u00EA V\u0103n C (T\u00E0i X\u1EBF)",
+      "Email": "levanc@nhaxe.vn",
+      "PasswordHash": "76a545945ae9c9ff5c0d37dabddb63ec239e65c5fde4e904e536a8d47948e92b",
+      "Phone": "0901000003",
+      "Role": "Staff",
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4580505+07:00"
+    },
+    {
+      "Id": 4,
+      "FullName": "Nguy\u1EC5n V\u0103n T\u00E0i (Ph\u1EE5 Xe)",
+      "Email": "nguyenvantai@nhaxe.vn",
+      "PasswordHash": "76a545945ae9c9ff5c0d37dabddb63ec239e65c5fde4e904e536a8d47948e92b",
+      "Phone": "0901000004",
+      "Role": "Staff",
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4580507+07:00"
+    },
+    {
+      "Id": 5,
+      "FullName": "Ph\u1EA1m Th\u1ECB H\u1ED7 Tr\u1EE3 (CSKH)",
+      "Email": "support@nhaxe.vn",
+      "PasswordHash": "76a545945ae9c9ff5c0d37dabddb63ec239e65c5fde4e904e536a8d47948e92b",
+      "Phone": "0901000005",
+      "Role": "Support",
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4580508+07:00"
+    },
+    {
+      "Id": 12,
+      "FullName": "Nguy\u1EC5n V\u0103n A (Kh\u00E1ch H\u00E0ng)",
+      "Email": "nguyenvana@gmail.com",
+      "PasswordHash": "76a545945ae9c9ff5c0d37dabddb63ec239e65c5fde4e904e536a8d47948e92b",
+      "Phone": "0901234567",
+      "Role": "Customer",
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.458051+07:00"
+    },
+    {
+      "Id": 13,
+      "FullName": "V\u0169 Ho\u00E0ng Ph\u00FAc (Kh\u00E1ch H\u00E0ng)",
+      "Email": "phucvu@gmail.com",
+      "PasswordHash": "76a545945ae9c9ff5c0d37dabddb63ec239e65c5fde4e904e536a8d47948e92b",
+      "Phone": "0987654321",
+      "Role": "Customer",
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4580511+07:00"
+    },
+    {
+      "Id": 14,
+      "FullName": "Phu\u0301c",
+      "Email": "phucv2334@gmail.com",
+      "PasswordHash": "221b37fcdb52d0f7c39bbd0be211db0e1c00ca5fbecd5788780463026c6b964b",
+      "Phone": "",
+      "Role": "Customer",
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:25:18.4025703+07:00"
+    }
+  ],
+  "EmailVerifications": [
+    {
+      "Id": 1,
+      "Email": "phucv2334@gmail.com",
+      "Code": "581008",
+      "TempToken": "",
+      "Type": "Register",
+      "ExpiresAt": "2026-11-14T15:21:34.9894335+07:00",
+      "IsUsed": false,
+      "CreatedAt": "2026-11-14T15:16:34.9892993+07:00"
+    },
+    {
+      "Id": 2,
+      "Email": "phucv2334@gmail.com",
+      "Code": "625015",
+      "TempToken": "",
+      "Type": "Register",
+      "ExpiresAt": "2026-11-14T15:23:09.6328669+07:00",
+      "IsUsed": false,
+      "CreatedAt": "2026-11-14T15:18:09.6328624+07:00"
+    },
+    {
+      "Id": 3,
+      "Email": "phucv2334@gmail.com",
+      "Code": "252342",
+      "TempToken": "",
+      "Type": "Register",
+      "ExpiresAt": "2026-11-14T15:23:19.9006049+07:00",
+      "IsUsed": false,
+      "CreatedAt": "2026-11-14T15:18:19.900602+07:00"
+    },
+    {
+      "Id": 4,
+      "Email": "phucv2334@gmail.com",
+      "Code": "542017",
+      "TempToken": "",
+      "Type": "Register",
+      "ExpiresAt": "2026-11-14T15:25:13.3194126+07:00",
+      "IsUsed": false,
+      "CreatedAt": "2026-11-14T15:20:13.3194054+07:00"
+    },
+    {
+      "Id": 5,
+      "Email": "phucv2334@gmail.com",
+      "Code": "623164",
+      "TempToken": "",
+      "Type": "Register",
+      "ExpiresAt": "2026-11-14T15:26:03.678812+07:00",
+      "IsUsed": false,
+      "CreatedAt": "2026-11-14T15:21:03.6788086+07:00"
+    },
+    {
+      "Id": 6,
+      "Email": "phucv2334@gmail.com",
+      "Code": "194344",
+      "TempToken": "dd648fb15fa54ec6968ea7eb32d1911a",
+      "Type": "Register",
+      "ExpiresAt": "2026-11-14T15:29:51.3973427+07:00",
+      "IsUsed": true,
+      "CreatedAt": "2026-11-14T15:24:51.3972695+07:00"
+    },
+    {
+      "Id": 7,
+      "Email": "phucv2334@gmail.com",
+      "Code": "282802",
+      "TempToken": "",
+      "Type": "ForgotPassword",
+      "ExpiresAt": "2026-11-14T15:30:59.847541+07:00",
+      "IsUsed": false,
+      "CreatedAt": "2026-11-14T15:25:59.8475366+07:00"
+    }
+  ],
+  "Routes": [
+    {
+      "RouteId": 1,
+      "RouteCode": "T001",
+      "Origin": "TP.HCM",
+      "Destination": "\u0110\u00E0 L\u1EA1t",
+      "DistanceKm": 308,
+      "DurationMinutes": 450,
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4587943+07:00",
+      "StopPoints": []
+    },
+    {
+      "RouteId": 2,
+      "RouteCode": "T002",
+      "Origin": "TP.HCM",
+      "Destination": "V\u0169ng T\u00E0u",
+      "DistanceKm": 105,
+      "DurationMinutes": 150,
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4590088+07:00",
+      "StopPoints": []
+    },
+    {
+      "RouteId": 3,
+      "RouteCode": "T003",
+      "Origin": "TP.HCM",
+      "Destination": "Nha Trang",
+      "DistanceKm": 435,
+      "DurationMinutes": 540,
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4590094+07:00",
+      "StopPoints": []
+    }
+  ],
+  "StopPoints": [
+    {
+      "Id": 1,
+      "RouteId": 1,
+      "Name": "B\u1EBFn xe Mi\u1EC1n \u0110\u00F4ng M\u1EDBi",
+      "Address": "501 Ho\u00E0ng H\u1EEFu Nam, TP. Th\u1EE7 \u0110\u1EE9c, TP.HCM",
+      "IsPickup": true,
+      "OrderIndex": 1
+    },
+    {
+      "Id": 2,
+      "RouteId": 1,
+      "Name": "V\u0103n ph\u00F2ng H\u00E0ng Xanh",
+      "Address": "486 \u0110i\u1EC7n Bi\u00EAn Ph\u1EE7, B\u00ECnh Th\u1EA1nh, TP.HCM",
+      "IsPickup": true,
+      "OrderIndex": 2
+    },
+    {
+      "Id": 7,
+      "RouteId": 1,
+      "Name": "B\u1EBFn xe Li\u00EAn t\u1EC9nh \u0110\u00E0 L\u1EA1t",
+      "Address": "01 T\u00F4 Hi\u1EBFn Th\u00E0nh, Ph\u01B0\u1EDDng 3, \u0110\u00E0 L\u1EA1t",
+      "IsPickup": false,
+      "OrderIndex": 1
+    },
+    {
+      "Id": 8,
+      "RouteId": 1,
+      "Name": "Ng\u00E3 3 \u0110a Ph\u00FA",
+      "Address": "\u0110\u01B0\u1EDDng Ankroet, Ph\u01B0\u1EDDng 7, \u0110\u00E0 L\u1EA1t",
+      "IsPickup": false,
+      "OrderIndex": 2
+    },
+    {
+      "Id": 3,
+      "RouteId": 2,
+      "Name": "B\u1EBFn xe Mi\u1EC1n T\u00E2y",
+      "Address": "395 Kinh D\u01B0\u01A1ng V\u01B0\u01A1ng, B\u00ECnh T\u00E2n, TP.HCM",
+      "IsPickup": true,
+      "OrderIndex": 1
+    },
+    {
+      "Id": 4,
+      "RouteId": 2,
+      "Name": "B\u1EBFn xe V\u0169ng T\u00E0u",
+      "Address": "Nam K\u1EF3 Kh\u1EDFi Ngh\u0129a, V\u0169ng T\u00E0u",
+      "IsPickup": false,
+      "OrderIndex": 1
+    }
+  ],
+  "VehicleTypes": [
+    {
+      "Id": 1,
+      "Name": "Gi\u01B0\u1EDDng n\u1EB1m 40 ch\u1ED7",
+      "SeatCount": 40,
+      "Description": "Xe gi\u01B0\u1EDDng n\u1EB1m 2 t\u1EA7ng cao c\u1EA5p trang b\u1ECB \u0111i\u1EC1u h\u00F2a, wifi, c\u1ED5ng s\u1EA1c"
+    },
+    {
+      "Id": 2,
+      "Name": "Limousine 9 ch\u1ED7",
+      "SeatCount": 9,
+      "Description": "Xe Limousine VIP gh\u1EBF massage, m\u00E0n h\u00ECnh gi\u1EA3i tr\u00ED ri\u00EAng"
+    },
+    {
+      "Id": 3,
+      "Name": "Gh\u1EBF ng\u1ED3i 29 ch\u1ED7",
+      "SeatCount": 29,
+      "Description": "Xe gh\u1EBF ng\u1ED3i \u0111\u1EDDi m\u1EDBi ti\u1EC7n nghi cho c\u00E1c tuy\u1EBFn ng\u1EAFn"
+    }
+  ],
+  "Vehicles": [
+    {
+      "VehicleId": 10,
+      "LicensePlate": "51B-123.45",
+      "VehicleTypeId": 1,
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4583633+07:00"
+    },
+    {
+      "VehicleId": 11,
+      "LicensePlate": "51B-678.90",
+      "VehicleTypeId": 2,
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4584557+07:00"
+    },
+    {
+      "VehicleId": 12,
+      "LicensePlate": "51B-456.78",
+      "VehicleTypeId": 3,
+      "Status": "Ho\u1EA1t \u0111\u1ED9ng",
+      "CreatedAt": "2026-11-14T15:04:46.4584559+07:00"
+    },
+    {
+      "VehicleId": 13,
+      "LicensePlate": "51B-999.99",
+      "VehicleTypeId": 1,
+      "Status": "B\u1EA3o tr\u00EC",
+      "CreatedAt": "2026-11-14T15:04:46.458456+07:00"
+    }
+  ],
+  "Maintenances": [
+    {
+      "Id": 5,
+      "VehicleId": 10,
+      "StartDate": "2026-11-29T00:00:00+07:00",
+      "EndDate": "2026-12-01T00:00:00+07:00",
+      "Note": "B\u1EA3o d\u01B0\u1EE1ng \u0111\u1ECBnh k\u1EF3 phanh v\u00E0 l\u1ED1p xe",
+      "CreatedAt": "2026-11-14T15:04:46.4585384+07:00"
+    }
+  ],
+  "Trips": [
+    {
+      "TripId": 101,
+      "TripCode": "CH0101",
+      "RouteId": 1,
+      "VehicleId": 10,
+      "DriverId": 3,
+      "AssistantId": 4,
+      "DepartureTime": "2026-11-15T08:00:00+07:00",
+      "EstimatedArrival": "2026-11-15T15:30:00+07:00",
+      "Price": 280000,
+      "Surcharge": 0,
+      "Status": "S\u1EAFp kh\u1EDFi h\u00E0nh",
+      "CreatedAt": "2026-11-14T15:04:46.4593251+07:00"
+    },
+    {
+      "TripId": 102,
+      "TripCode": "CH0102",
+      "RouteId": 1,
+      "VehicleId": 10,
+      "DriverId": 3,
+      "AssistantId": 4,
+      "DepartureTime": "2026-11-15T20:00:00+07:00",
+      "EstimatedArrival": "2026-11-16T03:30:00+07:00",
+      "Price": 300000,
+      "Surcharge": 0,
+      "Status": "S\u1EAFp kh\u1EDFi h\u00E0nh",
+      "CreatedAt": "2026-11-14T15:04:46.4595717+07:00"
+    },
+    {
+      "TripId": 103,
+      "TripCode": "CH0201",
+      "RouteId": 2,
+      "VehicleId": 11,
+      "DriverId": 3,
+      "AssistantId": null,
+      "DepartureTime": "2026-11-15T09:00:00+07:00",
+      "EstimatedArrival": "2026-11-15T11:30:00+07:00",
+      "Price": 160000,
+      "Surcharge": 0,
+      "Status": "S\u1EAFp kh\u1EDFi h\u00E0nh",
+      "CreatedAt": "2026-11-14T15:04:46.4595722+07:00"
+    }
+  ],
+  "Seats": [
+    {
+      "SeatId": 5001,
+      "TripId": 101,
+      "SeatCode": "A01",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5002,
+      "TripId": 101,
+      "SeatCode": "A02",
+      "Status": "\u0110\u00E3 \u0111\u1EB7t",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5003,
+      "TripId": 101,
+      "SeatCode": "A03",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5004,
+      "TripId": 101,
+      "SeatCode": "A04",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5005,
+      "TripId": 101,
+      "SeatCode": "A05",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5006,
+      "TripId": 101,
+      "SeatCode": "A06",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5007,
+      "TripId": 101,
+      "SeatCode": "A07",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5008,
+      "TripId": 101,
+      "SeatCode": "A08",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5009,
+      "TripId": 101,
+      "SeatCode": "A09",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5010,
+      "TripId": 101,
+      "SeatCode": "A10",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5011,
+      "TripId": 101,
+      "SeatCode": "A11",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5012,
+      "TripId": 101,
+      "SeatCode": "A12",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5013,
+      "TripId": 101,
+      "SeatCode": "A13",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5014,
+      "TripId": 101,
+      "SeatCode": "A14",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5015,
+      "TripId": 101,
+      "SeatCode": "A15",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5016,
+      "TripId": 101,
+      "SeatCode": "A16",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5017,
+      "TripId": 101,
+      "SeatCode": "A17",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5018,
+      "TripId": 101,
+      "SeatCode": "A18",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5019,
+      "TripId": 101,
+      "SeatCode": "A19",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5020,
+      "TripId": 101,
+      "SeatCode": "A20",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5021,
+      "TripId": 101,
+      "SeatCode": "B01",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5022,
+      "TripId": 101,
+      "SeatCode": "B02",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5023,
+      "TripId": 101,
+      "SeatCode": "B03",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5024,
+      "TripId": 101,
+      "SeatCode": "B04",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5025,
+      "TripId": 101,
+      "SeatCode": "B05",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5026,
+      "TripId": 101,
+      "SeatCode": "B06",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5027,
+      "TripId": 101,
+      "SeatCode": "B07",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5028,
+      "TripId": 101,
+      "SeatCode": "B08",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5029,
+      "TripId": 101,
+      "SeatCode": "B09",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5030,
+      "TripId": 101,
+      "SeatCode": "B10",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5031,
+      "TripId": 101,
+      "SeatCode": "B11",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5032,
+      "TripId": 101,
+      "SeatCode": "B12",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5033,
+      "TripId": 101,
+      "SeatCode": "B13",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5034,
+      "TripId": 101,
+      "SeatCode": "B14",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5035,
+      "TripId": 101,
+      "SeatCode": "B15",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5036,
+      "TripId": 101,
+      "SeatCode": "B16",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5037,
+      "TripId": 101,
+      "SeatCode": "B17",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5038,
+      "TripId": 101,
+      "SeatCode": "B18",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5039,
+      "TripId": 101,
+      "SeatCode": "B19",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5040,
+      "TripId": 101,
+      "SeatCode": "B20",
+      "Status": "Tr\u1ED1ng",
+      "Price": 280000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5041,
+      "TripId": 103,
+      "SeatCode": "VIP1",
+      "Status": "Tr\u1ED1ng",
+      "Price": 160000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5042,
+      "TripId": 103,
+      "SeatCode": "VIP2",
+      "Status": "Tr\u1ED1ng",
+      "Price": 160000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5043,
+      "TripId": 103,
+      "SeatCode": "VIP3",
+      "Status": "Tr\u1ED1ng",
+      "Price": 160000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5044,
+      "TripId": 103,
+      "SeatCode": "VIP4",
+      "Status": "Tr\u1ED1ng",
+      "Price": 160000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5045,
+      "TripId": 103,
+      "SeatCode": "VIP5",
+      "Status": "Tr\u1ED1ng",
+      "Price": 160000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5046,
+      "TripId": 103,
+      "SeatCode": "VIP6",
+      "Status": "Tr\u1ED1ng",
+      "Price": 160000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5047,
+      "TripId": 103,
+      "SeatCode": "VIP7",
+      "Status": "Tr\u1ED1ng",
+      "Price": 160000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5048,
+      "TripId": 103,
+      "SeatCode": "VIP8",
+      "Status": "Tr\u1ED1ng",
+      "Price": 160000,
+      "LockedUntil": null
+    },
+    {
+      "SeatId": 5049,
+      "TripId": 103,
+      "SeatCode": "VIP9",
+      "Status": "Tr\u1ED1ng",
+      "Price": 160000,
+      "LockedUntil": null
+    }
+  ],
+  "Tickets": [
+    {
+      "TicketId": 2001,
+      "TicketCode": "VE20261109001",
+      "TripId": 101,
+      "SeatId": 5002,
+      "CustomerId": 12,
+      "PassengerName": "Nguy\u1EC5n V\u0103n A",
+      "PassengerPhone": "0901234567",
+      "PassengerEmail": "nguyenvana@gmail.com",
+      "PickupPointId": 1,
+      "DropoffPointId": 7,
+      "TotalAmount": 280000,
+      "Channel": "Online",
+      "Status": "\u0110\u00E3 thanh to\u00E1n",
+      "BookedAt": "2026-11-14T13:04:46.4603023+07:00",
+      "PaidAt": "2026-11-14T13:04:46.4603265+07:00",
+      "ConfirmedAt": null,
+      "CancelledAt": null
+    }
+  ],
+  "Payments": [
+    {
+      "Id": 1,
+      "TicketId": 2001,
+      "Provider": "MoMo",
+      "OrderId": "VE20261109001",
+      "RequestId": "RQ1762650000001",
+      "TransId": 4088878653,
+      "Amount": 280000,
+      "PayType": "qr",
+      "ResultCode": 0,
+      "Message": "Successful.",
+      "ResponseTime": 1794643486460,
+      "Signature": "7b9f4ca728076c32f16041cbc917ebf5",
+      "CreatedAt": "2026-11-14T15:04:46.4604297+07:00"
+    }
+  ],
+  "Notifications": [
+    {
+      "Id": 301,
+      "UserId": 12,
+      "Type": "PaymentConfirmed",
+      "Title": "Thanh to\u00E1n th\u00E0nh c\u00F4ng",
+      "Content": "V\u00E9 VE20261109001 \u0111\u00E3 \u0111\u01B0\u1EE3c thanh to\u00E1n th\u00E0nh c\u00F4ng.",
+      "IsRead": false,
+      "CreatedAt": "2026-11-14T13:04:46.460965+07:00"
+    },
+    {
+      "Id": 302,
+      "UserId": 12,
+      "Type": "TripReminder",
+      "Title": "Nh\u1EAFc nh\u1EDF gi\u1EDD kh\u1EDFi h\u00E0nh",
+      "Content": "Chuy\u1EBFn xe CH0101 s\u1EBD kh\u1EDFi h\u00E0nh l\u00FAc 08:00 ng\u00E0y mai t\u1EA1i B\u1EBFn xe Mi\u1EC1n \u0110\u00F4ng.",
+      "IsRead": false,
+      "CreatedAt": "2026-11-14T14:04:46.4610415+07:00"
+    }
+  ],
+  "SupportTickets": [
+    {
+      "TicketId": 77,
+      "CustomerId": 12,
+      "Title": "H\u1ECFi v\u1EC1 gh\u1EBF chuy\u1EBFn 8h",
+      "Status": "Ch\u1EDD ph\u1EA3n h\u1ED3i ng\u01B0\u1EDDi d\u00F9ng",
+      "HandlerId": 1,
+      "CreatedAt": "2026-11-14T14:04:46.4612978+07:00",
+      "UpdatedAt": "2026-11-14T15:34:28.8254772+07:00"
+    }
+  ],
+  "SupportMessages": [
+    {
+      "Id": 9001,
+      "TicketId": 77,
+      "SenderId": 12,
+      "SenderRole": "Customer",
+      "Content": "Cho m\u00ECnh h\u1ECFi chuy\u1EBFn 8h c\u00F2n gh\u1EBF kh\u00F4ng?",
+      "SentAt": "2026-11-14T14:29:46.4615306+07:00"
+    },
+    {
+      "Id": 9002,
+      "TicketId": 77,
+      "SenderId": 5,
+      "SenderRole": "Support",
+      "Content": "Ch\u00E0o b\u1EA1n, chuy\u1EBFn 8h c\u00F2n gh\u1EBF tr\u1ED1ng \u1EA1.",
+      "SentAt": "2026-11-14T14:34:46.4615557+07:00"
+    },
+    {
+      "Id": 9003,
+      "TicketId": 77,
+      "SenderId": 5,
+      "SenderRole": "Support",
+      "Content": "t\u00F4i mu\u00F4\u0301n ho\u0309i v\u00EA\u0300 ve\u0301 cu\u0309a t\u00F4i",
+      "SentAt": "2026-11-14T15:31:27.3951031+07:00"
+    },
+    {
+      "Id": 9004,
+      "TicketId": 77,
+      "SenderId": 1,
+      "SenderRole": "Admin",
+      "Content": "\u0111\u00E2\u0301",
+      "SentAt": "2026-11-14T15:34:28.8254762+07:00"
+    }
+  ]
+}
